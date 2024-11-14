@@ -8,8 +8,7 @@ Falls can have serious consequences, especially for the elderly and individuals 
 
 ## 🛠️ Tools and Resources Used 
 **Python Version:** 3.7  
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pipeline
-**For Web Framework Requirements:**  ```pip install -r requirements.txt``` 
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pipeline **For Web Framework Requirements:**  ```pip install -r requirements.txt``` 
 
 
 ## Data Cleaning
