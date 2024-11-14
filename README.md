@@ -38,7 +38,7 @@ I made the following changes and created the following variables:
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
+![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20SpO2.png)
 
 ## Model Building 
 
