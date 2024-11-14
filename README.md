@@ -1,6 +1,9 @@
 # Fall Prediction 🧑🏼‍🦯📉 
 Welcome to the **Fall Prediction** project! This repository showcases a data science project aimed at predicting falls using machine learning techniques, focusing on providing valuable insights for healthcare and safety applications.
 
+# 📌 Project Overview
+Falls can have serious consequences, especially for the elderly and individuals with certain health conditions. This project leverages data science to predict falls using sensor data. By accurately predicting falls, this model aims to aid in proactive interventions, improving safety and quality of life.
+
 ## Code and Resources Used 
 **Python Version:** 3.7  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle  
