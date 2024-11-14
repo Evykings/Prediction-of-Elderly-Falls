@@ -1,9 +1,5 @@
-# Data Science Salary Estimator: Project Overview 
-* Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
-* Scraped over 1000 job descriptions from glassdoor using python and selenium
-* Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing API using flask 
+# Fall Prediction 🧑🏼‍🦯📉 
+Welcome to the **Fall Prediction** project! This repository showcases a data science project aimed at predicting falls using machine learning techniques, focusing on providing valuable insights for healthcare and safety applications.
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
