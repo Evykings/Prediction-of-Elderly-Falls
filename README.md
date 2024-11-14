@@ -13,7 +13,13 @@ Falls can have serious consequences, especially for the elderly and individuals 
 
 **For Web Framework Requirements:**  ```pip install -r requirements.txt``` 
 
+## 📊 Key Features
 
+*   **Exploratory Data Analysis (EDA):** Understand patterns and relationships in the dataset.
+*   **Feature Engineering:** Extract meaningful features for accurate predictions.
+*   **Modeling:** Train and evaluate various machine learning models, including Random Forest, SVM, and Neural Networks.
+*   **Evaluation Metrics:** Precision, Recall, F1-Score, and ROC-AUC to assess model performance.
+    
 ## Data Cleaning
 After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
 
