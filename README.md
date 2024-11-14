@@ -26,7 +26,7 @@ Falls can have serious consequences, especially for the elderly and individuals 
 is applied on the cane,monitors the blood sugar levels of the older adults, the blood oxygen level, and the heart rate variation. These vitals was recorded and collected from the wearable sensors 
 *    **Description:** The dataset used for this project has the following columns- Distance, Pressure (0-small, 1- medium and 2- high pressures), Heart Rate Variation (HRV), Sugar Levels, Oxygen Saturation (SpO2) levels and Accelerometer reading (<+-3g, i.e., threshold is 0 and >Threshold is 1). In relationship to the decision of falls (0- no fall detected, 1- person slipped/tripped/prediction of fall and 2- definite fall).
 
-## Data Cleaning
+##🧹 Data Cleaning
 I made the following changes and created the following variables:
 
 *	Renamed the Decision column. Whitespace was found in the Decision column, making it difficlt to call out entries from the column. 
@@ -34,7 +34,7 @@ I made the following changes and created the following variables:
 *	Created new features by combining features like HRV * SpO2, distance/pressure, and accelerometer * pressure to capture relationships between variables.
 *   Edited the Decision column to (0- no fall detected, 1- person slipped/tripped/prediction of fall and 2- definite fall) 
 
-## EDA
+## 📊 EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
@@ -43,7 +43,7 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/correlation%20Heatmap.png)
 
 
-## Model Building 
+##⚙️ Model Building 
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
 
@@ -54,7 +54,7 @@ I tried three different models:
 *	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 *	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
 
-## Model performance
+## 💡Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
 *	**Random Forest** : MAE = 11.22
 *	**Linear Regression**: MAE = 18.86
