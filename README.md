@@ -24,7 +24,7 @@ Falls can have serious consequences, especially for the elderly and individuals 
 
 *    **Source:** The dataset used for this project was gotten from readings recorded from a cStick. The cStick is a calm stick that monitors the grasping pressure that
 is applied on the cane,monitors the blood sugar levels of the older adults, the blood oxygen level, and the heart rate variation. These vitals was recorded and collected from the wearable sensors 
-*    **Description:** The dataset used for this project has the following columns- Distance, Pressure (0-small, 1- medium and 2- high pressures), Heart Rate Variation (HRV), Sugar Levels, Oxygen Saturation (SpO2) levels and Accelerometer reading (<+-3g, i.e., threshold is 0 and >Threshold is 1). In relationship to the decision of falls (0- no fall detected, 1- person slipped/tripped/prediction of fall and 2- definite fall) 
+*    **Description:** The dataset used for this project has the following columns- Distance, Pressure (0-small, 1- medium and 2- high pressures), Heart Rate Variation (HRV), Sugar Levels, Oxygen Saturation (SpO2) levels and Accelerometer reading (<+-3g, i.e., threshold is 0 and >Threshold is 1). In relationship to the decision of falls (0- no fall detected, 1- person slipped/tripped/prediction of fall and 2- definite fall).
 
 ## Data Cleaning
 After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
