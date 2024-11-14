@@ -40,6 +40,10 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20SpO2.png)
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20Sugar%20Level.png)
+![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/correlation%20Heatmap.png)
+
+
+https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/correlation%20Heatmap.png
 
 
 https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20Sugar%20Level.png
