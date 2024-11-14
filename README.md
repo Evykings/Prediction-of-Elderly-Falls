@@ -39,7 +39,10 @@ I looked at the distributions of the data and the value counts for the various c
 
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20SpO2.png)
+![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20Sugar%20Level.png)
 
+
+https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20Sugar%20Level.png
 ## Model Building 
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
