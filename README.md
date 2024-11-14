@@ -27,23 +27,12 @@ is applied on the cane,monitors the blood sugar levels of the older adults, the 
 *    **Description:** The dataset used for this project has the following columns- Distance, Pressure (0-small, 1- medium and 2- high pressures), Heart Rate Variation (HRV), Sugar Levels, Oxygen Saturation (SpO2) levels and Accelerometer reading (<+-3g, i.e., threshold is 0 and >Threshold is 1). In relationship to the decision of falls (0- no fall detected, 1- person slipped/tripped/prediction of fall and 2- definite fall).
 
 ## Data Cleaning
-After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+I made the following changes and created the following variables:
 
-*	Parsed numeric data out of salary 
-*	Made columns for employer provided salary and hourly wages 
-*	Removed rows without salary 
-*	Parsed rating out of company text 
-*	Made a new column for company state 
-*	Added a column for if the job was at the company’s headquarters 
-*	Transformed founded date into age of company 
-*	Made columns for if different skills were listed in the job description:
-    * Python  
-    * R  
-    * Excel  
-    * AWS  
-    * Spark 
-*	Column for simplified job title and Seniority 
-*	Column for description length 
+*	Renamed the Decision column. Whitespace was found in the Decision column, making it difficlt to call out entries from the column. 
+*	Apply normalization on the numerical columns to bring the values into a comparable range, especially if distance has high variability.
+*	Created new features by combining features like HRV * SpO2, distance/pressure, and accelerometer * pressure to capture relationships between variables.
+*   Edited the Decision column to (0- no fall detected, 1- person slipped/tripped/prediction of fall and 2- definite fall) 
 
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
