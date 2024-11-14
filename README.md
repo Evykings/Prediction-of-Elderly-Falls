@@ -10,7 +10,6 @@ Falls can have serious consequences, especially for the elderly and individuals 
 **Python Version:** 3.7  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pipeline
 
-
 **For Web Framework Requirements:**  ```pip install -r requirements.txt``` 
 
 
