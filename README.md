@@ -53,10 +53,10 @@ Basic metrics like accuracy, precision, recall, and F1-score were used to evalua
 
 *  **Hyperparameter Tuning**
 **Objective:** Optimize the performance of the SGDClassifier by tuning key hyperparameters such as:
-Learning rate  ```(eta0)``` 
-Regularization parameter  ```(alpha)``` 
-Loss function  ```(hinge)```
-Number of iterations  ```(max_iter)```
+*  Learning rate  ```(eta0)``` 
+*  Regularization parameter  ```(alpha)``` 
+*  Loss function  ```(hinge)```
+*  Number of iterations  ```(max_iter)```
 
 **Approach:**
 Leveraged Grid Search Cross-Validation (GridSearchCV) to perform an exhaustive search over hyperparameter combinations.
