@@ -74,7 +74,7 @@ The result from the models classification is shown below:
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/fall.png)
 
 The confusion matrix for the classification is show below:
-![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/fall.png)
+![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/confusion%20matrix%20.png?raw=true)
 
 
 
