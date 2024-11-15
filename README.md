@@ -45,14 +45,22 @@ I looked at the distributions of the data and the value counts for the various c
 
 ## ⚙️ Model Building 
 
-First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
+The predictive modeling phase of this project focused on using Stochastic Gradient Descent Classifier (SGDClassifier), a fast and efficient linear classifier for large-scale datasets. Below are the key steps involved in training and optimizing the model:
 
-I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
+*  **Baseline Model**
+The initial model was trained with default parameters to establish a baseline performance.
+Basic metrics like accuracy, precision, recall, and F1-score were used to evaluate the baseline.
 
-I tried three different models:
-*	**Multiple Linear Regression** – Baseline for the model
-*	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
-*	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
+*  **Hyperparameter Tuning**
+**Objective:** Optimize the performance of the SGDClassifier by tuning key hyperparameters such as:
+Learning rate  ```(eta0)``` 
+Regularization parameter  ```(alpha)``` 
+Loss function  ```(hinge)```
+Number of iterations  ```(max_iter)```
+
+**Approach:**
+Leveraged Grid Search Cross-Validation (GridSearchCV) to perform an exhaustive search over hyperparameter combinations.
+Used a stratified k-fold cross-validation approach to ensure robust performance evaluation and prevent overfitting.
 
 ## 💡Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
