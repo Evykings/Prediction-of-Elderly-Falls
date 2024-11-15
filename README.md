@@ -68,10 +68,15 @@ The model was evaluated using the following metrics to assess its effectiveness 
 * **Accuracy:** Percentage of correctly classified instances.
 * **Precision:** Ability to minimize false positives (important for fall prediction).
 * **Recall (Sensitivity):** Ability to correctly identify actual falls.
-* **F1-Score:* Balance between precision and recall.
+* **F1-Score:** Balance between precision and recall.
 
 The result from the models classification is shown below:
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/fall.png)
+
+The confusion matrix for the classification is show below:
+![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/fall.png)
+
+
 
 
 ## Productionization 
