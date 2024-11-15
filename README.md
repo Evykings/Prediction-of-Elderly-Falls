@@ -71,7 +71,7 @@ The model was evaluated using the following metrics to assess its effectiveness 
 * **F1-Score:* Balance between precision and recall.
 
 The result from the models classification is shown below:
-![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/correlation%20Heatmap.png)
+![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/fall.png)
 
 
 ## Productionization 
