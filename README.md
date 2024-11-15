@@ -63,10 +63,16 @@ Leveraged Grid Search Cross-Validation (GridSearchCV) to perform an exhaustive s
 Used a stratified k-fold cross-validation approach to ensure robust performance evaluation and prevent overfitting.
 
 ## 💡Model performance
-The Random Forest model far outperformed the other approaches on the test and validation sets. 
-*	**Random Forest** : MAE = 11.22
-*	**Linear Regression**: MAE = 18.86
-*	**Ridge Regression**: MAE = 19.67
+The model was evaluated using the following metrics to assess its effectiveness in predicting falls:
+
+* **Accuracy:** Percentage of correctly classified instances.
+* **Precision:** Ability to minimize false positives (important for fall prediction).
+* **Recall (Sensitivity):** Ability to correctly identify actual falls.
+* **F1-Score:* Balance between precision and recall.
+
+The result from the models classification is shown below:
+![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/correlation%20Heatmap.png)
+
 
 ## Productionization 
 In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
