@@ -47,11 +47,11 @@ I looked at the distributions of the data and the value counts for the various c
 
 The predictive modeling phase of this project focused on using Stochastic Gradient Descent Classifier (SGDClassifier), a fast and efficient linear classifier for large-scale datasets. Below are the key steps involved in training and optimizing the model:
 
-*  **Baseline Model**
+**1**  **Baseline Model**
 The initial model was trained with default parameters to establish a baseline performance.
 Basic metrics like accuracy, precision, recall, and F1-score were used to evaluate the baseline.
 
-*  **Hyperparameter Tuning**
+**2**  **Hyperparameter Tuning**
 **Objective:** Optimize the performance of the SGDClassifier by tuning key hyperparameters such as:
   *  Learning rate  ```(eta0)``` 
   *  Regularization parameter  ```(alpha)``` 
